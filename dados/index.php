@@ -27,11 +27,11 @@ if($_GET) {
     $dados[] = array("nome"=>$nome, "cnh"=>$cnh, "cpf"=>$cpf);
 }
 
-echo "<table><tr><th>Nome</th><th>CNH</th><th>CPF</th></tr>";
+echo "<table style='border: 1px solid'><tr style='border: 1px solid'><th style='border: 1px solid'>Nome</th><th style='border: 1px solid'>CNH</th><th style='border: 1px solid'>CPF</th></tr>";
 foreach($dados as $v){
     echo "<tr>";
     foreach($v as $vv){
-        echo "<td>{$vv}</td>";
+        echo "<td style='border: 1px solid'>{$vv}</td>";
     }
     echo "<tr>";
 }

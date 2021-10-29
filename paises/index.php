@@ -1,9 +1,3 @@
-<?php
-   	
-	$pdo = new PDO('mysql:host=localhost;dbname=hr', 'root', 'password');
-	$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-	$sql = $pdo->query("select * from countries order by country_name;");	
-    ?>
 
     <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
         <h1 class="h2">Países</h1>
