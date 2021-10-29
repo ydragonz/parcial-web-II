@@ -55,7 +55,7 @@ if (empty($_POST['usuario'] || empty($_POST['senha']))) {
     
 <main class="form-signin">
   <form action="login.php" method="POST">
-    <img class="mb-4" src="imagens/logo_unaerp.png" alt="" width="72" height="57">
+    <img class="mb-4" src="imagens/logo_unaerp.png" alt="" width="144" height="114">
     <h1 class="h3 mb-3 fw-normal">Faça login</h1>
 
     <div class="form-floating">

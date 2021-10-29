@@ -1,7 +1,7 @@
 <div class="position-sticky pt-3">
     <ul class="nav flex-column">
         <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">
+            <a class="nav-link active" aria-current="page" href="main.php">
             <span data-feather="home"></span>   
             Início
             </a>
@@ -9,7 +9,7 @@
         <li class="nav-item">
             <a class="nav-link" href="regioes/index">
             <span data-feather="map-pin"></span>
-            Regiões
+            Dados
             </a>
         </li>
         <li class="nav-item">
