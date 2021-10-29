@@ -4,7 +4,8 @@ $dados[] = array("nome"=>"Lucas", "cnh"=>83618903401, "cpf"=>92034085094);
 $dados[] = array("nome"=>"Marcelo", "cnh"=>74760455782, "cpf"=>49890763036);
 
 ?>
-
+<br>
+<h1>Cadastro de dados</h1><br>
 <form action="" method="GET">
     <label for="nome">Nome:</label>
     <input type="text" name="nome">
@@ -27,7 +28,7 @@ if($_GET) {
     $dados[] = array("nome"=>$nome, "cnh"=>$cnh, "cpf"=>$cpf);
 }
 
-echo "<table style='border: 1px solid'><tr style='border: 1px solid'><th style='border: 1px solid'>Nome</th><th style='border: 1px solid'>CNH</th><th style='border: 1px solid'>CPF</th></tr>";
+echo "<table style='border: 1px solid;   width: 50%;'><tr style='border: 1px solid'><th style='border: 1px solid'>Nome</th><th style='border: 1px solid'>CNH</th><th style='border: 1px solid'>CPF</th></tr>";
 foreach($dados as $v){
     echo "<tr>";
     foreach($v as $vv){
