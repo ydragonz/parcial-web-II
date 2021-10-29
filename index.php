@@ -1,17 +1,5 @@
 <?php
 // Integrantes: Leonardo Bernardes de Oliveira; Sara Ferreira Fernandes.
-
-// Declarando variaveis de login de exemplo.
-/*$usuario = 'teste';
-$senha = '1234';
-
-if (empty($_POST['usuario'] || empty($_POST['senha']))) {
-    header('Location: index.php');
-    exit();
-}
-
-*/
-
 ?>
 
 <!doctype html>

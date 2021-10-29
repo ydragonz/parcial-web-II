@@ -1,4 +1,5 @@
 <?php
+// Integrantes: Leonardo Bernardes de Oliveira; Sara Ferreira Fernandes.
 
     if(isset($_GET['p'])) {
         $arquivo = $_GET['p'];    
@@ -7,7 +8,6 @@
         $arquivo = 'home';
     }
 ?>
-
 
 <!doctype html>
 <html lang="pt-br">
