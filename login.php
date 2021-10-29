@@ -1,16 +1,20 @@
 <?php
-/* 
-Nome: Leonardo Bernardes de Oliveira
-RA: 834280  
-*/
+// Integrantes: Leonardo Bernardes de Oliveira; Sara Ferreira Fernandes.
 
 // Declarando variaveis de login de exemplo.
-$usuario = 'teste';
+$email = 'teste@gmail.com';
 $senha = '1234';
 
-if (empty($_POST['usuario'] || empty($_POST['senha']))) {
+if (empty($_POST['email'] || empty($_POST['senha']))) {
     header('Location: index.php');
     exit();
+}else {
+    if ($_POST['email'] == $email && $_POST['senha'] == $senha) {
+        header('Location: main.php');
+    }else {
+        header('Location: index.php');
+        exit();
+    }
 }
 
 

@@ -1,7 +1,5 @@
 # parcial-web-II
 
-Nome: Leonardo Bernardes de Oliveira
-
-RA: 834280
+Integrantes: -Leonardo Bernardes de Oliveira -Sara
 
 Trabalho de avaliação parcial de Programação para Web II
