@@ -2,3 +2,4 @@
 <h3>Integrantes:</h3>
 <p>Leonardo Bernardes de Oliveira</p>
 <p>Sara Ferreira Fernandes</p>
+<p>João Carneiro da Cunha</p>

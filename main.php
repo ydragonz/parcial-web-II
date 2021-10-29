@@ -1,5 +1,5 @@
 <?php
-// Integrantes: Leonardo Bernardes de Oliveira; Sara Ferreira Fernandes.
+// Integrantes: Leonardo Bernardes de Oliveira; Sara Ferreira Fernandes; João Carneiro da Cunha.
 
     if(isset($_GET['p'])) {
         $arquivo = $_GET['p'];    

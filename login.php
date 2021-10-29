@@ -1,5 +1,5 @@
 <?php
-// Integrantes: Leonardo Bernardes de Oliveira; Sara Ferreira Fernandes.
+// Integrantes: Leonardo Bernardes de Oliveira; Sara Ferreira Fernandes; João Carneiro da Cunha.
 
 // Declarando variaveis de login de exemplo.
 $email = 'teste@gmail.com';
